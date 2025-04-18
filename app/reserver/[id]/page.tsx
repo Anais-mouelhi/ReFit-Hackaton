@@ -36,14 +36,14 @@ export default function WorkshopDetailPage({ params }: WorkshopDetailPageProps) 
       "Thé, café et collation",
     ],
     image:
-      "https://images.unsplash.com/photo-1607345366928-199ea26cfe3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80",
+      "https://i.pinimg.com/736x/17/cc/cc/17ccccfb6a3915f871877bec3be6b0f1.jpg",
     spots: 5,
     totalSpots: 8,
     instructor: {
       name: "Marie Dupont",
       bio: "Couturière professionnelle avec 10 ans d'expérience dans l'upcycling et la mode durable.",
       image:
-        "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1061&q=80",
+        "https://i.pinimg.com/736x/83/3c/39/833c3977639a8f8fa95d91d5f95a5bcf.jpg",
     },
   }
 

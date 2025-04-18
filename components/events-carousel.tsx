@@ -61,7 +61,7 @@ export default function EventsCarousel() {
       address: "35 Boulevard de Magenta, 75010 Paris",
       description: "Transformez vos vieux jeans en accessoires et nouveaux vêtements.",
       image:
-        "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+        "https://i.pinimg.com/736x/83/3c/39/833c3977639a8f8fa95d91d5f95a5bcf.jpg",
     },
     {
       id: 4,
