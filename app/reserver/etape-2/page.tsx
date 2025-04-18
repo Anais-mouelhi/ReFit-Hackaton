@@ -18,6 +18,7 @@ export default function ReservationStep2Page() {
   const [repairDetails, setRepairDetails] = useState("")
   const [repairTypes, setRepairTypes] = useState<string[]>([])
   const [files, setFiles] = useState<File[]>([])
+  const [newsletter, setNewsletter] = useState(false)
 
   const handleRepairTypeChange = (type: string) => {
     if (repairTypes.includes(type)) {
@@ -37,7 +38,7 @@ export default function ReservationStep2Page() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
     // Process form submission
-    console.log({ email, clothingType, fabricType, repairTypes, repairDetails, files })
+    console.log({ email, clothingType, fabricType, repairTypes, repairDetails, files, newsletter })
     // Navigate to confirmation page
     router.push("/reserver/confirmation")
   }
@@ -45,7 +46,7 @@ export default function ReservationStep2Page() {
   return (
     <>
       <SiteHeader />
-      <main className="min-h-screen bg-[#FAF4F2] py-12">
+      <main className="min-h-screen bg-[#FAF4F2] py-12 pt-20 md:pt-24">
         <div className="container max-w-2xl mx-auto px-4">
           {/* Ajout de l'indicateur d'étapes */}
           <ReservationSteps currentStep={2} />
@@ -239,6 +240,22 @@ export default function ReservationStep2Page() {
                 <br />
                 Types autorisés: .png, .pdf, .doc, .docx, .gif, .ppt, .pptx, .odt, .xls, .xlsx, .txt
               </p>
+            </div>
+
+            {/* Newsletter subscription */}
+            <div className="mb-8 bg-[#FFF0EB] p-4 rounded-lg">
+              <div className="flex items-start">
+                <input
+                  type="checkbox"
+                  id="newsletter"
+                  checked={newsletter}
+                  onChange={(e) => setNewsletter(e.target.checked)}
+                  className="mt-1 mr-2"
+                />
+                <label htmlFor="newsletter" className="text-sm">
+                  Je souhaite recevoir les actualités de ReFit et être informé·e des prochains ateliers!
+                </label>
+              </div>
             </div>
 
             {/* Submit button */}

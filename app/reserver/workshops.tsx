@@ -34,7 +34,7 @@ export default function Workshops({ selectedLocation }: WorkshopsProps) {
       address: "8 bis Rue de la Fontaine au Roi, 75011 Paris",
       price: "45€",
       image:
-        "https://images.unsplash.com/photo-1607345366928-199ea26cfe3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80",
+        "https://i.pinimg.com/736x/83/3c/39/833c3977639a8f8fa95d91d5f95a5bcf.jpg",
       spots: 5,
       totalSpots: 8,
     },
@@ -48,7 +48,7 @@ export default function Workshops({ selectedLocation }: WorkshopsProps) {
       address: "12 Rue du Faubourg Saint-Antoine, 75012 Paris",
       price: "50€",
       image:
-        "https://images.unsplash.com/photo-1619646176605-b7417fb53b1e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80",
+        "https://i.pinimg.com/736x/d2/7f/a6/d27fa603b1dc7c7613d07b2727558a96.jpg",
       spots: 2,
       totalSpots: 10,
     },
@@ -62,7 +62,7 @@ export default function Workshops({ selectedLocation }: WorkshopsProps) {
       address: "35 Boulevard de Magenta, 75010 Paris",
       price: "40€",
       image:
-        "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+        "https://i.pinimg.com/736x/17/cc/cc/17ccccfb6a3915f871877bec3be6b0f1.jpg",
       spots: 0,
       totalSpots: 6,
     },

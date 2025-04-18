@@ -8,7 +8,7 @@ export default function ConfirmationPage() {
   return (
     <>
       <SiteHeader />
-      <main className="min-h-screen bg-[#FAF4F2] py-16">
+      <main className="min-h-screen bg-[#FAF4F2] py-16 pt-20 md:pt-24">
         <div className="container max-w-2xl mx-auto px-4 text-center">
           {/* Ajout de l'indicateur d'étapes */}
           <ReservationSteps currentStep={3} />

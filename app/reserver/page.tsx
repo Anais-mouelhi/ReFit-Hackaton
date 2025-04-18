@@ -106,7 +106,7 @@ export default function ReserverPage() {
   return (
     <>
       <SiteHeader />
-      <main className="min-h-screen bg-[#FAF4F2] px-4 py-8 md:px-8 md:py-12">
+      <main className="min-h-screen bg-[#FAF4F2] px-4 py-8 md:px-8 md:py-12 pt-20 md:pt-24">
         <div className="max-w-7xl mx-auto">
           {/* Ajout de l'indicateur d'étapes */}
           <ReservationSteps currentStep={1} />

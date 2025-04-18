@@ -3,6 +3,7 @@ import { useState, useEffect } from "react"
 import type React from "react"
 import Link from "next/link"
 import { Menu, X } from "lucide-react"
+import Image from "next/image"
 
 export default function SiteHeader() {
   const [scrolled, setScrolled] = useState(false)
@@ -71,8 +72,14 @@ export default function SiteHeader() {
       <div className="container mx-auto px-6 py-5 flex justify-between items-center">
         {/* Logo à gauche */}
         <div className="logo">
-          <Link href="/" className="text-2xl md:text-3xl font-bold text-white">
-            Re<span className="font-bold">_</span>Fit
+          <Link href="/" className="relative">
+            <Image
+              src="/images/refit-logo.png"
+              alt="ReFit Logo"
+              width={100}
+              height={10}
+              className={`${scrolled ? "brightness-0 invert" : ""}`}
+            />
           </Link>
         </div>
 

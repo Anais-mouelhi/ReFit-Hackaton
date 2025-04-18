@@ -50,7 +50,7 @@ export default function WorkshopDetailPage({ params }: WorkshopDetailPageProps) 
   return (
     <>
       <SiteHeader />
-      <main className="min-h-screen py-12 md:py-16">
+      <main className="min-h-screen py-12 md:py-16 pt-20 md:pt-24">
         <div className="container mx-auto px-4 max-w-5xl">
           <div className="mb-8">
             <Link

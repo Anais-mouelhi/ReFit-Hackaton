@@ -11,7 +11,7 @@ export default function ReservationSteps({ currentStep }: ReservationStepsProps)
   ]
 
   return (
-    <div className="mb-10">
+    <div className="mb-10 pt-20 md:pt-24">
       <h1 className="text-2xl md:text-3xl font-bold text-center mb-8">Réservation de votre atelier</h1>
 
       <div className="flex items-center justify-center max-w-2xl mx-auto">

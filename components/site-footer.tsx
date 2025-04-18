@@ -1,5 +1,6 @@
 import Link from "next/link"
 import { Facebook, Instagram, Twitter } from "lucide-react"
+import Image from "next/image"
 
 export default function SiteFooter() {
   return (
@@ -7,9 +8,15 @@ export default function SiteFooter() {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
           <div className="animate-fade-in">
-            <h3 className="text-2xl font-bold mb-6">
-              Re<span className="text-[#ff5722]">_</span>Fit
-            </h3>
+            <div className="mb-6">
+              <Image
+                src="/images/refit-logo.png"
+                alt="ReFit Logo"
+                width={120}
+                height={50}
+                className="brightness-0 invert"
+              />
+            </div>
             <p className="text-gray-300 leading-relaxed">
               Donnez une seconde vie à vos vêtements avec nos ateliers et tutoriels de réparation et customisation.
             </p>
