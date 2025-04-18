@@ -38,7 +38,7 @@ export default function Home() {
                   <span className="hidden md:inline">à vos vêtements</span>
                   <span className="block md:hidden">à vos vêtements</span>
                 </h1>
-                <p className="text-lg leading-relaxed text-white">Donnez une seconde vie à vos vêtements</p>
+                <p className="text-lg leading-relaxed text-white">Apprends à re-pimper tes vetêments avec nos ateliers </p>
                 <div className="flex flex-col sm:flex-row gap-4 pt-4">
                   <Link
                     href="/reserver"
